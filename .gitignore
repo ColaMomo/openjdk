@@ -1,0 +1,41 @@
+# maven ignore
+lib/
+#conf/
+target/
+deploy/
+bin/
+*.war
+*.zip
+*.tar
+*.tar.gz
+*.exe
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+.externalToolBuilders/
+maven-eclipse.xml
+
+# idea ignore
+.idea/
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+target/
+logs/
+
+# svn 
+.svn
+/target

@@ -1,0 +1,29 @@
+Object类的方法：
+
+1. 通用类
+public Class getClass();
+获取该对象运行时的类型。
+
+public int hashCode();
+获取该对象的hash值，在hashmap等类中会用到。
+默认实现是根据对象的地址来进行生成的。
+
+public boolean eaquals();
+判断两个对象是否相等。
+默认实现是通过地址来进行判断。
+
+public Object clone();
+创建一个对象的拷贝。
+需要实现Cloneable接口。
+
+2. 线程相关
+public void wait();
+
+public void notify();
+
+public void notifyAll();
+
+3. 垃圾回收
+public void finalize();
+
+
